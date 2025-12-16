@@ -62,6 +62,7 @@ The compiled JAR will be located in `build/libs/`.
 
 This project is intended for educational use.  
 Use on public servers may violate server rules. You are responsible for how you use it.
+Stormterror is in ultra pro max early stages! I am working on it to make it best!
 
 ## License
 
