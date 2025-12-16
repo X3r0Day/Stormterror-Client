@@ -31,7 +31,7 @@ Lightweight, stable, and Linux-friendly, with all rendering handled through nati
 - Fabric API
 
 ### Steps
-1. Download the latest release from **Releases**
+1. Download the latest release from **Releases** [Will provide later.. for now just build it yourself ong]
 2. Place the `.jar` in `.minecraft/mods`
 3. Launch using the Fabric profile
 
