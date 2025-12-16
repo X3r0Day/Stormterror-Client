@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "stormterror",
+	"version": "${version}",
+	"name": "stormterror",
+	"description": "All In One Client!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://github.io/X3r0Day/",
+		"sources": "https://github.com/X3r0Day/Stormterror-Clients"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/stormterror/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.xyressa.stormterror.Stormterror"
+		],
+		"client": [
+			"net.xyressa.stormterror.StormterrorClient"
+		],
+		"fabric-datagen": [
+			"net.xyressa.stormterror.StormterrorDataGenerator"
+		]
+	},
+	"mixins": [
+		"stormterror.mixins.json",
+		{
+			"config": "stormterror.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.2",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

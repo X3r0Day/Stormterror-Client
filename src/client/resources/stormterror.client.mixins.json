@@ -1,0 +1,17 @@
+{
+	"required": true,
+	"package": "net.xyressa.stormterror.mixin.client",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ClientConnectionMixin",
+		"GameRendererMixin",
+		"AbstractBlockMixin",
+		"AbstractBlockStateMixin",
+		"LightmapTextureManagerMixin",
+		"ClientPlayerEntityMixin",
+		"CameraMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
